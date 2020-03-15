@@ -48,6 +48,19 @@
 //      ]
 //    }
 //  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "babel-module": [
+          ["api", "./src/api"],
+          ["utils", "./src/utils"],
+          ["helpers", "./src/helpers"],
+          ["components", "./src/components"],
+          ["containers", "./src/containers"],
+          ["reduxStore", "./src/redux-store"]
+        ]}
+    }
+  },
   "rules": {
     "flowtype/space-after-type-colon": [ 2, "always", { "allowLineBreak": true } ],
     "no-prototype-builtins": 0,
