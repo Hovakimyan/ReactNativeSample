@@ -1,19 +1,7 @@
 const plugins = [
     [
-        'module-resolver',
+        'babel-plugin-module-resolver',
         {
-            root: ['./src'],
-            extensions: [
-                '.ios.ts',
-                '.android.ts',
-                '.ts',
-                '.ios.tsx',
-                '.android.tsx',
-                '.tsx',
-                '.jsx',
-                '.js',
-                '.json'
-            ],
             alias: {
                 api: './src/api',
                 utils: './src/utils',

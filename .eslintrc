@@ -34,20 +34,6 @@
     "browser": true,
     "node": true
   },
-//  "settings": {
-//    "import/resolver": {
-//      "alias": [
-//        ["api", "./src/api"],
-//        ["consts", "./src/consts"],
-//        ["helpers", "./src/helpers"],
-//        ["components", "./src/components"],
-//        ["containers", "./src/containers"],
-//        ["reduxStore", "./src/redux-store"],
-//        ["i18n","./src/i18n"],
-//        ["translations","./src/i18n/en.js"]
-//      ]
-//    }
-//  },
   "settings": {
     "import/resolver": {
       "babel-module": {
@@ -58,7 +44,8 @@
           ["components", "./src/components"],
           ["containers", "./src/containers"],
           ["reduxStore", "./src/redux-store"]
-        ]}
+        ]
+      }
     }
   },
   "rules": {
@@ -66,6 +53,7 @@
     "no-prototype-builtins": 0,
     "react/display-name": 0,
     "flowtype/generic-spacing": 0,
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "comma-dangle": 0
   }
 }
